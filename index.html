@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/Gold-Any-Program.ico">
+    <title>Landing</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto Mono', monospace;
+            color: rgb(255, 255, 255);
+            background: #202731;
+        }
+
+        section {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 400px;
+            padding: 100px 20vw;
+        }
+
+        .yellow {
+            background: orangered;
+        }
+
+        .red {
+            background: #dd3f31;
+        }
+
+        .pink {
+            background: #ff0066;
+        }
+
+        .dark {
+            background: #0f0f10;
+        }
+
+        .curve {
+            position: absolute;
+            height: 225px;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .curve::before {
+            content: "";
+            display: block;
+            position: absolute;
+            border-radius: 100% 50%;
+            width: 55%;
+            height: 100%;
+            background-color: #202731;
+            transform: translate(85%, 60%);
+        }
+
+        .curve::after {
+            content: "";
+            display: block;
+            position: absolute;
+            border-radius: 100% 50%;
+            width: 55%;
+            height: 100%;
+            background-color: orangered;
+            transform: translate(-4%, 40%);
+            z-index: -1;
+        }
+
+        img {
+            border-radius: 50%;
+        }
+
+        a {
+            color: yellow;
+        }
+
+        * {
+             box-sizing: border-box;
+        }   
+
+        .left_navbar {
+            height: calc(100vh - 40px);
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+<body>
+  
+  <section class="yellow">
+      <h1>Hey There, 👋</h1>
+      <p><strong>We make Open-Source projects to power your Code.org Projects. From libraries, to desktop applications, to even remakes of existing projects, we help make your projects easier.</strong></p>
+      <div class="curve"></div>
+  </section>
+  <section>
+        <h1>Contributing</h1>
+        <p><strong>We're always looking for new contributors. Here are some ways you can contribute:</strong></p>
+        <p>- Opening Issues</p>
+        <p>Found a bug or a security risk in our project? Open a issue so we can get it fixed.</p>
+        <p>- Contributing Code</p>
+        <p>Want to help us by Coding? Open a pull-request, and we will give it a look.</p>
+        <p>- Documentation</p>
+        <p>Know everything about our project? Write some documentation to help other people know how it works.</p>
+  </section>
+  <section>
+        <h1>Projects</h1>
+        <p><strong>We have a few projects that we have worked on. Here are some of them.</strong></p>
+        <p><a href="https://github.com/code-org-open-source/Standard">CDO Standard Library</a></p>
+        <p>A Standard Library to help make tasks and coding easier on Code.org</p>
+        <p><a href="https://github.com/code-org-open-source/WorldLang">WorldLang</a></p>
+        <p>A coding language that you can embed into your projects, or run on the desktop.</p>
+  <section>
+        <h1>Contact</h1>
+        <p><strong>We're always looking to talk to you. Here are some ways to get in touch.</strong></p>
+        <p>- <a href="mailto:colackalpha@gmail.com">Email</a></p>
+  </section>
+  
+</body>
+</html>
