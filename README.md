@@ -1,5 +1,5 @@
-## Hi, 👋
 
+<h2 align="center">Hi, 👋</h2>
 <p align="center">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg">
   <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg">
