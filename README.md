@@ -1,6 +1,11 @@
 ## Hi, 👋
 
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg">
+  <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg">
+  <img src=https://badgen.net/github/stars/code-org-open-source/code-org-open-source.github.io>
+</p>
+<br>
 
 This website is for our group, the [CDO Open Source Team](https://github.com/code-org-open-source). This website allows us to track our progress on the many different projects we work on for [Code.org](https://code.org).
 
